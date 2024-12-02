@@ -6,9 +6,8 @@ This section explains the main components of the RAG App code, including the log
 Modules
 -------
 
-### `app.py`
 
-#### 1. **Model Selection**
+1. **Model Selection**
 The code allows users to select a model for embeddings and question answering:
 
 .. code-block:: python
@@ -30,7 +29,7 @@ The code allows users to select a model for embeddings and question answering:
 
 This initializes both the embedding model and the language model based on the user's selection.
 
-#### 2. **PDF File Uploading**
+2. **PDF File Uploading**
 The app processes uploaded PDF files to create a vector database:
 
 .. code-block:: python
@@ -47,7 +46,7 @@ The app processes uploaded PDF files to create a vector database:
 
 This handles file uploads, stores them temporarily, and uses the `PyPDFLoader` to extract text.
 
-#### 3. **Vector Database Creation**
+3. **Vector Database Creation**
 The extracted text is split into chunks and embedded into a vector database:
 
 .. code-block:: python
@@ -60,7 +59,7 @@ The extracted text is split into chunks and embedded into a vector database:
 
 This ensures the document text is preprocessed and stored in a searchable vector database.
 
-#### 4. **Question Answering**
+4. **Question Answering**
 The app supports both retrieval-augmented generation (RAG) and fallback to a direct language model response:
 
 .. code-block:: python
@@ -88,15 +87,15 @@ If relevant documents are found, the app uses them to generate answers. Otherwis
 
 ---
 
-### Helper Functions and Utilities
+Helper Functions and Utilities
 
-#### **RecursiveCharacterTextSplitter**
+**RecursiveCharacterTextSplitter**
 This splits the document into smaller, overlapping chunks for effective retrieval and embedding.
 
-#### **PyPDFLoader**
+**PyPDFLoader**
 Used for parsing the uploaded PDF file and extracting the text content.
 
-#### **Chroma**
+**Chroma**
 Handles vector database creation, storage, and retrieval.
 
 ---
