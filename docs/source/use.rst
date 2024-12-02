@@ -34,17 +34,3 @@ Error Handling
 - If no PDF file is uploaded, the app will default to querying the language model.
 - Any file processing errors will be displayed in the interface.
 
-Code Reference
-==============
-
-This section provides an auto-generated reference for the codebase.
-
-App Module
-----------
-
-The main module of the app includes functionality for model selection, file uploading, vector database creation, and question answering.
-
-.. automodule:: app
-   :members:
-   :undoc-members:
-   :show-inheritance:

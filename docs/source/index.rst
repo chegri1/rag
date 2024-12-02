@@ -9,3 +9,4 @@ Welcome to the RAG App documentation. This guide explains how to install, use, a
 
    install
    use
+   code_references
