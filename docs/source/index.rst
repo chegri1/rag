@@ -27,6 +27,6 @@ To set up and run the RAG App, follow these steps:
 
 1. **Clone the repository**:
    Clone the repository using the following command:
-   .. code-block:: console
+.. code-block:: console
 
-    https://github.com/chegri1/apprag
+   https://github.com/chegri1/apprag
