@@ -11,4 +11,4 @@ Contents:
 
    usage
    installation
-   code_reference
+   Dependencies
