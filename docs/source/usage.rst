@@ -14,8 +14,9 @@ To set up and run the RAG App, follow these steps:
 
    git clone https://github.com/chegri1/apprag.git
 
-3. **Run the app**:
+2. **Run the app**:
 To run the app, execute the following command:
+
 .. code-block:: console
 
    streamlit run apprag.py
