@@ -9,22 +9,6 @@ Contents:
    :maxdepth: 2
    :caption: Contents:
 
-   installation
    usage
+   installation
    code_reference
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Installation
-============
-
-To set up and run the RAG App, follow these steps:
-
-1. **Clone the repository**:
-   Clone the repository using the following command:
-   https://github.com/chegri1/apprag
