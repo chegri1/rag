@@ -5,12 +5,25 @@ Usage
 
 Installation
 ------------
+To set up and run the RAG App, follow these steps:
 
-To use Lumache, first install it using pip:
+1. **Clone the repository**:
+   Clone the repository using the following command:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   git clone https://github.com/chegri1/apprag
+2. **Install the dependencies**:
+Install the required Python libraries by running:
+.. code-block:: console
+
+   pip install -r requirements.txt
+
+3. **Run the app**:
+To run the app, execute the following command:
+.. code-block:: console
+
+   streamlit run apprag.py
 
 Creating recipes
 ----------------
