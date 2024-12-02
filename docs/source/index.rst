@@ -1,22 +1,32 @@
-Welcome to Lumache's documentation!
-===================================
+RAG App Documentation
+======================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Welcome to the RAG App documentation. This guide explains how to install, use, and understand the internals of the RAG App.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+Contents:
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
+   installation
    usage
-   api
+   code_reference
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+Installation
+============
+
+To set up and run the RAG App, follow these steps:
+
+1. **Clone the repository**:
+   Clone the repository using the following command:
+   .. code-block:: console
+
+    https://github.com/chegri1/apprag
